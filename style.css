@@ -1,7 +1,14 @@
+body {
+    background-image: url("pictures/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 h1 {
     color: royalblue;
     text-align: center;
     font-family: gill sans;
+    font-size: 60px;
 }
 
 .board {
@@ -32,3 +39,14 @@ h1 {
     line-height: 3em;
 }
 
+.cat {
+    border: black 1px solid;
+}
+
+.front-facing {
+    width: 105%;
+    height: 105%;
+    position: relative;
+    top: -150px;
+    left: -4px;
+}
