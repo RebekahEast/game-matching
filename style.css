@@ -39,6 +39,11 @@ h1 {
     line-height: 3em;
 }
 
+.tile:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+
 .cat {
     border: black 1px solid;
 }
