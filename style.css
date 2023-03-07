@@ -1,0 +1,34 @@
+h1 {
+    color: royalblue;
+    text-align: center;
+    font-family: gill sans;
+}
+
+.board {
+    height: 600px;
+    width: 800px;
+    background: grey;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: rgb(100, 100, 100) solid 2px;
+    border-radius: 3%;   
+    padding: 5 0 5 0;
+}
+
+.tile {
+    border: white solid 1px;
+    height: 110px;
+    width: 20%;
+    padding: 10px;
+    margin: 6.5px;
+    font-size: 30px;
+    background-color: rgb(99, 99, 99);
+    border-radius: 5%;
+    line-height: 3em;
+}
+
